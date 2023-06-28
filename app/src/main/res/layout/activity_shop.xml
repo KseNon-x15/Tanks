@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/bg1q"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:src="@drawable/background2" />
+    <ImageView
+        android:id="@+id/bg2q"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/bg3q"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background3"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/skin1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/test4"
+        android:src="@drawable/tank1" />
+
+    <ImageView
+        android:id="@+id/skin2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/test4"
+        android:src="@drawable/tank2"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <ImageView
+        android:id="@+id/skin3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/test4"
+        android:src="@drawable/tank3"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <ImageView
+        android:id="@+id/skin4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/test4"
+        android:src="@drawable/tank4"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:id="@+id/exitq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Выход"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/highScoreTxtq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Рекорд"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>
